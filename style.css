@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 241, 241);
+    width: 100vw;
+    height: 50vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color:gainsboro;
+    width: 430px;
+    height: 600px;
+    padding: 40px 40px 80px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 13px 13px 5px rgb(196, 196, 196),-13px -13px 5px white;
+
+}
+.img-logo{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 2px gray,0px 0px 0px 5px gainsboro,8px 8px 5px rgb(196, 196, 196),-8px -8px 5px white;
+    border-radius: 50%;
+}
+.logo{
+    margin: 0px auto;
+}
+.text-logo{
+    font-size: 28px;
+    margin:20px 0px 0px -15px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.input input{
+    height: 60px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 20px;
+}
+.username, .password{
+
+    height:60px ;
+    box-shadow: 10px 10px 8px white,-10px -10px 8px rgb(199, 199, 199);
+    border-radius: 20px;
+    margin: 40px 0px;
+    font-size: 40px;
+}
+.icon{
+    margin:0px 20px -10px;
+}
+.login{
+    background-color: rgb(10, 201, 214);
+    height: 50px; 
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor:pointer ;
+    box-shadow: 5px 5px 9px rgb(196, 196, 196),-5px -5px 9px white;
+    transition:all 0.5s ;
+}
+.forget{
+    margin: 20px 60px;
+}
+.forget a{
+    text-decoration: none;
+    color: rgb(71, 70, 70);
+}
+.login:hover{
+    background-color: rgb(41, 255, 58);
+}
